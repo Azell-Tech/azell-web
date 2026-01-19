@@ -37,6 +37,13 @@
     ".next/dev/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    ".next",
+    "out",
+    "**/*.controller.ts",
+    "**/*.service.ts",
+    "**/*.module.ts",
+    "investment-accounts/**",
+    "setup/**"
   ]
 }
